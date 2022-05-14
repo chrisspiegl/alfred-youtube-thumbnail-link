@@ -1,0 +1,46 @@
+{
+  "name": "alfred-youtube-thumbnail-link",
+  "version": "0.0.3",
+  "description": "Alfred workflow to get the YouTube thumbnail link from a url in your clipboard",
+  "type": "module",
+  "main": "index.js",
+  "license": "MIT",
+  "repository": "chrisspiegl/alfred-youtube-thumbnail-link",
+  "author": {
+    "name": "Chris Spiegl",
+    "email": "chris@chrisspiegl.com",
+    "url": "https://chrisspiegl.com/"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "scripts": {
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup",
+    "cu": "ncu",
+    "cu:fix": "ncu -u",
+    "test": "xo --fix"
+  },
+  "files": [
+    "icon.png",
+    "info.plist",
+    "index.js"
+  ],
+  "keywords": [
+    "alfred",
+    "workflow",
+    "macos",
+    "mac",
+    "youtube",
+    "short link",
+    "share link",
+    "link cleanup"
+  ],
+  "dependencies": {
+    "alfy": "^0.12.2"
+  },
+  "devDependencies": {
+    "npm-check-updates": "^12.0.5",
+    "xo": "^0.47.0"
+  }
+}
