@@ -28,4 +28,10 @@ npm install --global alfred-youtube-thumbnail-link
 
 ## Improvement Ideas
 
+### Actually check if the thumbnail exists
+
 Use the YouTube API or similar to check if the thumbnail actually exists and provide the one which has the highest resolution (or multiple resolutions to choose from).
+
+### Download & Copy image file to Clipboard
+
+This would need some extra implementation to download and copy the image file. Maybe by storing it in a tmp folder? Not sure yet.
