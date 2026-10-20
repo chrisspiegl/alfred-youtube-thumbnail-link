@@ -75,7 +75,7 @@
 	<key>createdby</key>
 	<string>Chris Spiegl</string>
 	<key>description</key>
-	<string></string>
+	<string>Alfred workflow to get the YouTube thumbnail link from a url in your clipboard</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
@@ -137,7 +137,7 @@
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
-				<string>YouTube Share Link Generator</string>
+				<string>YouTube Thumbnail Link</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
@@ -235,7 +235,7 @@
 		</dict>
 	</array>
 	<key>readme</key>
-	<string>Alfred workflow to get the YouTube thumbnail link from a url in your clipboard
+	<string>Get the YouTube thumbnail link (maxresdefault.jpg) from a video URL in Alfred or on the clipboard. Supports watch, youtu.be, Shorts, embed, live, and YouTube Music links. Some videos have no max-resolution thumbnail.
 
 https://github.com/chrisspiegl/alfred-youtube-thumbnail-link</string>
 	<key>uidata</key>
@@ -289,8 +289,8 @@ https://github.com/chrisspiegl/alfred-youtube-thumbnail-link</string>
 		<string>ytt</string>
 	</dict>
 	<key>version</key>
-	<string></string>
+	<string>0.0.1</string>
 	<key>webaddress</key>
-	<string></string>
+	<string>https://github.com/chrisspiegl/alfred-youtube-thumbnail-link</string>
 </dict>
 </plist>
